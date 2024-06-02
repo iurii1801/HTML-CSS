@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<style type="text/css">
+  P.fig {
+   text-align: center; /* Выравнивание по центру */
+  }
+</style>
+
+<head> 
+    <meta charset="utf-8" />
+    <meta name="description" content="Лабораторная" />
+    <meta name="keywords" content="лаб.2, сайт" />
+    <meta name="author" content="Bogdanov Iurii" />
+    <link rel="shortcut icon" href="Images/pictures.png">
+    <link rel="stylesheet" href="../lab2_Bogdanov_Iurii/css/style.css">
+    <title>Lab. 2</title>
+</head>
+   <body>
+<table class="imagesOne">
+  <tr>
+<td><img src="Images/nature.jpg" alt="природа " width="500" height="250"/></td>
+<td><img src="Images/nature1.jpg" alt="природа 1" width="500" height="250"/></td>
+</tr>
+</table>
+
+<p class="fig"><img  src="Images/nature2.jpg" alt="природа 2" width="500" height="250" border="2"/></p>
+
+<table border="1" bordercolor="black"  cellspacing="0" cellpadding="10"  align="center" >
+  <tr>
+    <th colspan="9">Date despre copii colaboratorilor</th>
+  </tr>
+  <tr>
+    <th>Nume, <br> prenume</th>
+    <th> Adresa fizica</th>
+    <th>Numar <br> copii<br> minori</th>
+    <th>Prenume <br> copil si anul <br> de nastere</th>
+    <th>Poza copil</th>
+  </tr>
+  <tr>
+    <td rowspan="2">Ivanov Elena</td>
+    <td rowspan="2">Str. Codrilor 45, ap.56</td>
+    <td rowspan="2" align="center"> 2 </td>
+    <td> Elena, 2006    </td>
+    <td><a href="HTML/Elena.html" target="_blank"> <img src="Images/Elena.jpg" width="100" height="100" /></a></td>
+  </tr>
+  <tr>
+    <td>Valeriu,<br>2011 </td>
+    <td><a href="HTML/Valeriu.html" target="_blank"><img src="Images/Valeriu.jpg" width="100" height="100"/></a></td>
+    
+  </tr>
+  <tr>
+    <td rowspan="3">Mihailov Marta</td>
+    <td rowspan="3">Str. Puskin 10, ap.45 </td>
+    <td rowspan="3" align="center">3 </td>
+    <td>Ion, 2008  </td>
+    <td><a href="HTML/Ion.html" target="_blank"><img src="Images/Ion.jpg" width="100" height="100"/></a></td>
+  </tr>
+  <tr>
+    <td>Ecaterina,<br> 2010 </td>
+    <td><a href="HTML/Ecaterina.html" target="_blank"><img src="Images/Ecaterina.jpg" width="100" height="100" /></a></td>
+    
+  </tr>
+  <tr>
+    <td>Valentin,<br> 2011</td>
+    <td><a href="HTML/Valentin.html" target="_blank"><img src="Images/Valentin.jpg" width="100" height="100"/></a></td>
+  </tr>
+  <tr>
+    <td>Cliucnicov <br>Magdalena</td>
+    <td>Str. Nucilor 34, ap. 22 </td>
+    <td align="center">1 </td>
+    <td>Mariuta,<br>2012 </td>
+    <td> <a href="HTML/Mariuta.html" target="_blank"><img src="Images/Mariuta.jpg" width="100" height="100"/></a></td>
+  </tr>
+  <tr>
+    <th colspan="2">Total număr copii </th>
+    <td colspan="3">6  </td>
+  </tr>
+</table>
+
+<br>
+
+<img class="web" src="../lab2_Bogdanov_Iurii/Images/photo.jpg" alt="Chrome, JS, C++" width="800" height="250" usemap="#Navigation">
+<map name="Navigation"> 
+  <area shape="circle" coords="148,122,82" href="https://ru.wikipedia.org/wiki/Google_Chrome" target="_blank" alt="Chrome" title="Информация о Chrome"> 
+  <area shape="rect" coords="314,44,483,210" href="https://ru.wikipedia.org/wiki/JavaScript" target="_blank" alt="JS" title="Информация о JS"> 
+  <area shape="poly" coords="655,36,729,80,730,169,655,210,580,169,579,80" href="https://ru.wikipedia.org/wiki/C%2B%2B" target="_blank" alt="C++" title="Информация о C++"> 
+</map>
+<br>
+
+<div class="form"> 
+  <fieldset class="ramka_3"> 
+  <form class="new_form"> 
+<fieldset class="ramka"> 
+<legend><b>Date personale</b></legend> 
+  <p>*Numele: 
+      <input class="input" type="text" required pattern="[^[a-zA-Z]+$]" title="Please write only letters!"> 
+  </p> 
+  <p>*Prenumele: 
+      <input class="input_1" type="text" required pattern="[^[a-zA-Z]+$]" title="Please write only letters!"> 
+  </p> 
+  <p>E-mail: 
+      <input type="email" class="input_2" type="text"> 
+  </p> 
+  <p>*Data nasterii: 
+      <input class="data" type="date" required> 
+  </p> 
+  <p>Sexul: 
+          <input class="pol_F" type="radio" id="1" name="S" value="F"> F <input class="pol_M" id="1" name="S" value="M" type="radio"> M 
+      </p> 
+  <p>Telefonul: 
+      <input class="phone" type="tel" pattern="^[ 0-9]+$"> 
+  </p> 
+  <p>Raionul: 
+      <input class="raion" list="raionele"> 
+          <select>
+              <option value="Edinet"> 
+              <option value="Cahul"> 
+              <option value="Calarasi"> 
+              <option value="Cantemir"> 
+              <option value="Chisinau"> 
+              <option value="Hincesti"> 
+              <option value="Comrat"> 
+              <option value="Taraclia"> 
+              </select> 
+  </p> 
+  <p> 
+      <input class="col" type="checkbox"> Colegiu <br> Studii 
+      <input class="lic" type="checkbox"> Licenta <br> 
+      <input class="master" type="checkbox"> Masterat 
+  </p>  
+  <p> 
+      <p class="sublim">Suplimentar:</p><textarea class="text" name="text" cols="21" rows="5" placeholder="Scrie aici" maxlength="1000"></textarea> 
+  </p> 
+</fieldset>  
+<div class="form_2"> 
+  <fieldset class="ramka_1"> 
+      <legend><b>Date despre produsul ales</b></legend> 
+      <p class="product_name">*Denumirea <br> produs:</p> 
+          <p class="p_name"><input type="text" required pattern="[A-Za-z]" title="Please write only letters!"></p> 
+      <p class="product">*Producatorul:</p> 
+          <p class="creator"><input type="text" required pattern="[A-Za-z]" title="Please write only letters!"></p> 
+      <p class="cantitatea">*Cantitatea de <br> produse:</p> 
+          <p class="amount"><input type="text" required></p> 
+      <p class="color">*Culoarea:</p> 
+          <p class="color_choose"><input type="color" required></p> 
+      <p class="size">*Marimea:</p> 
+          <p class="size_class"><input type="text" required></p> 
+  </fieldset> 
+</div> 
+<div class="form_3"> 
+  <fieldset class="ramka_2"> 
+      <legend><b>Date bancare</b></legend> 
+      <p class="card_type">*Tipul cardului: 
+          <input class="visa_card" type="radio" required><b>Visa</b> <input class="master_card" type="radio" required><b>MasterCard</b> 
+      </p> 
+      <p class="num_card">*Numarul <br> cardului:</p> 
+          <p class="input_number"><input type="text" required pattern="^[ 0-9]+${16}"></p> 
+      <p class="expire">*Expira</p> 
+          <p class="card_date"><input type="date" required pattern="^[ 0-9]+$"></p> 
+  </fieldset> 
+
+<p class="buttons"> 
+  <input type="submit" value="Submit"> 
+  <input type="reset" value="Reset"> 
+</p> 
+<p class="final">*Campul trebuie sa fie completat</p> 
+</form> 
+</fieldset> 
+</div> 
+<br>
+
+<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8618.286814879075!2d10.865022048374188!3d44.527751058148034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fe30ec9353a47%3A0xc1591a69dcb22098!2z0KTRjNC-0YDQsNC90L4!5e0!3m2!1sru!2s!4v1676905983633!5m2!1sru!2s" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+   
+  <h2>Песня в МР3</h2>
+    <audio controls>
+        <source src="Audio/imany_-_don-t-be-so-shy-filatov-karas-remix.mp3" type="audio/mp3">
+    </audio>
+    <br>
+    <h2>Песня в OGG</h2>
+    <audio controls>
+      <source src="Audio/imany_-_don-t-be-so-shy-filatov-karas-remix.ogg" type="audio/ogg">
+    </audio>
+
+  
+    <h2>видео в МР4</h2>
+      <video controls>
+      <source src="../lab2_Bogdanov_Iurii/Video/1.mp4">
+    </video>
+    <br>
+    <h2>Видео в AVI</h2>
+    <video controls>
+      <source src="../lab2_Bogdanov_Iurii/video/f1.avi">
+    </video>
+    </body>
+    </html>
