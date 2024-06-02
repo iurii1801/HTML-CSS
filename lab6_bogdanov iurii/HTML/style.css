@@ -1,0 +1,93 @@
+.body { 
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+} 
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 250%;
+ }
+ article{
+ padding: 10px;
+ }
+ ul{
+  padding: 0px 10px;
+ }
+ 
+
+ .header { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  padding: 10px; 
+  background: linear-gradient(to bottom right, #ff0000, rgb(46, 110, 229));
+  color: gold
+ } 
+
+ @media (min-width:1400px ) {
+ .main { 
+  display: grid; 
+  grid-template-columns: 200px 1fr 200px;  /* Задаем три столбца: 200px, 1fr (оставшееся пространство), 200px */
+  grid-template-rows: auto 1fr auto;  /* Задаем три строки: auto (высота содержимого), 1fr (оставшееся пространство), auto */
+  grid-template-areas: 
+  "nav section ads" 
+  "nav section ads" 
+  "nav footer footer"; 
+  /* Задаем области для первой и второй строк: навигация, основной контент, реклама */ 
+  /* Задаем области для третьей строки: нав, футер, футер */
+ } 
+ .nav { 
+  grid-area: nav; 
+  background-color: #f1f1f1; 
+  padding: 20px; 
+  height: 100% auto; 
+
+ } 
+ .ss{
+    color: rgb(72, 51, 209);
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+ }
+ .ad{
+  font-size: 12px;
+ }
+ .section1 { 
+  grid-area: section; 
+  background-color: #fff; 
+  padding: 10px; 
+  grid-row: 1 / span 1; /*Элемент будет размещен в первой строке сетки и будет занимать одну ячейку в этой строке.*/
+ } 
+ .section2 { 
+  background-color: #fff; 
+  padding: 10px; 
+  grid-row: 2 / span 1; /*Элемент будет размещен во второй строке сетки и будет занимать одну ячейку в этой строке.*/
+   } 
+ .aside { 
+  grid-area: ads; 
+  background-color: #f1f1f1; 
+  padding: 10px; 
+ } 
+ .footer { 
+  grid-area: footer; 
+  padding: 115px; 
+  background-color: #333; 
+  color: #fff; 
+  text-align: center; 
+ } 
+}
+
+@media (max-width: 768px  ) {
+  
+  .main { 
+    display: grid; 
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto; 
+    
+   } 
+ }

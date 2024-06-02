@@ -1,0 +1,109 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(238, 236, 236);
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    background-color: #fff;
+    filter: drop-shadow(3px 0 5px rgb(210, 210, 210));
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.mainLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 0;
+}
+.mainNav{
+    padding-top: 15px;
+    background-color: lightgray;
+    width: 200px;
+    height: 100vh;
+}
+.mainMenu{
+    padding: 0 20px;
+    text-align: center;
+    line-height: 40px;
+}
+.menuLink{
+    color: #2e2e2e;
+    text-transform: uppercase;
+    font-size: 18px;
+    transition: .3s ease;
+}
+.menuLink:hover{
+    color: rgb(181, 3, 3);
+    transition: .3s ease;
+}
+aside {
+    width: 18%; /* задаем ширину боковой панели */
+    float: right; /* выравниваем панель по правому краю */
+    background-color: #f1f1f1; /* задаем фоновый цвет */
+    padding: 10px; /* добавляем отступы вокруг содержимого */
+    box-sizing: border-box; /* учитываем отступы внутри размеров элемента */
+    border: 1px solid #ddd; /* добавляем границу */
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    z-index: -1;
+}
+.asideAd{
+    position: absolute;
+    display: block;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #2e2e2e;
+}
+.sectionOne{
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #2e2e2e;
+}
+.sectionImg{
+    filter: drop-shadow(0 0 5px rgb(185, 185, 185));
+    border-radius: 10px;
+}
+.sectionName{
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.sectionText{
+    margin: 0px 0px;
+    opacity: .6;
+    max-width: 1000px;
+}
+.sectionGrid{
+    display: grid;
+    grid-template-columns: 3, 1fr;
+    grid-column-gap: 15px;
+}
+.sectionSquare1{
+    position: absolute;
+    background-color: lightgray;
+    height: 200px;
+    width: 200px;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #bab9b9;
+    border-radius: 10px;
+}
+.sectionSquare2{
+    
+}
