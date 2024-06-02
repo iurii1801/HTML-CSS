@@ -1,0 +1,326 @@
+
+.body{ 
+    background: linear-gradient(to right, #79c4fa, #ffa200);
+}
+/* Линейный градиент для фона заголовка */
+.header {
+    padding-left: 400px;
+    background:repeating-radial-gradient(circle, #0095ff, #000000 10px, #9000ff 20px);
+    color: #ffffff;
+    transform: rotate(5deg); /* Поворот заголовка на 5 градусов */
+    font-size: 20px;
+}
+   
+
+.imagesOne{
+    margin: 0 auto;
+    background: linear-gradient(to right, #ff0000, #ffe600);
+    transform: scale(1);/* Увеличение размера изображений на 1 раз */
+}
+
+
+/* Повторяющийся линейный градиент для фона элемента с классом "form" */
+.form {
+    padding-left: 200px;
+    background: repeating-linear-gradient(to right, #00ff77, #00ff77 30px, #ffea00 30px, #ffea00 60px);
+    transform: skewY(2.5deg) translateX(50px); /* Наклон и сдвиг кнопок формы внутри элемента с классом .form */
+   
+}
+
+.input{
+
+    margin-top: 5px;
+    margin-left: 45px;
+
+}
+.input_1{
+
+    padding-top: 0 auto;
+    margin-left: 26px;
+
+}
+.input_2{
+
+    padding-top: 0 auto;
+    margin-left: 58px;
+
+}
+.data{
+
+    padding-top: 0 auto;
+    margin-left: 13px;
+
+}
+.pol_F{
+
+    margin-left: 70px;
+
+}
+.ramka{
+
+    width: 310px;
+    height: 470px;
+
+}
+.phone{
+
+    margin-left: 40px;
+
+}
+.raion{
+
+    margin-left: 52px;
+
+}
+.col{
+
+    margin-left: 109px;
+
+}
+.lic{
+
+    margin-left: 68px;
+
+}
+.master{
+
+    margin-left: 109px;
+
+}
+.text{
+
+    margin-left: 109px;
+    margin-top: -75px;
+
+}
+.sublim{
+
+    padding-top: 40px;
+
+}
+.ramka_1{
+
+    width: 315px;
+
+}
+.form_2{
+
+    margin-top: -490px;
+    padding-left: 350px;
+   
+}
+
+.p_name{
+
+    margin-left: 130px;
+    margin-top: -43px;
+
+}
+.product{
+
+    margin-top: 30px;
+
+}
+.creator{
+
+    margin-top: -33px;
+    margin-left: 130px;
+
+}
+.cantitatea{
+
+    margin-top: 20px;
+
+}
+.amount{
+
+    margin-left: 130px;
+    margin-top: -40px;
+
+}
+.color{
+
+    margin-top: 25px;
+
+}
+.color_choose{
+
+    margin-left: 130px;
+    margin-top: -33px;
+
+}
+.size{
+
+    margin-top: 20px;
+
+}
+.size_class{
+
+    margin-left: 130px;
+    margin-top: -33px;
+
+}
+.form_3{
+
+    margin-left: 350px;
+    margin-top: 0px;
+   
+}
+.ramka_2{
+
+    width: 315px;
+
+}
+.visa_card{
+
+    margin-left: 30px;
+
+}
+.master_card{
+
+    margin-left: 20px;
+
+}
+.num_card{
+
+    margin-top: 20px;
+
+}
+.input_number{
+
+    margin-left: 130px;
+    margin-top: -40px;
+
+}
+.expire{
+
+    margin-top: 25px;
+
+}
+.card_date{
+
+    margin-left: 130px;
+    margin-top: -35px;
+
+}
+.buttons{
+
+    margin-left: -350px;
+    margin-top: 5px;
+
+}
+.final{
+
+    margin-left: 0px;
+    margin-top: -35px;
+
+}
+.ramka_3{
+
+    height: 550px;
+    width: 695px;
+
+}
+.new_form{
+
+    background: radial-gradient(circle, #ffcc00, #990000);
+    margin-top: 35px;
+    margin-left: 5px;
+
+}
+
+.map {
+    background: conic-gradient(from 0deg, #000000, #616161 60deg);
+    transform: scaleY(-1); /* Отражает вертикально */
+  }
+
+  .music{
+    background-color: #ffcc00;
+    transition: background-color 3s ease;
+  }
+  .music:hover{
+    background-color: #0095ff;
+  }
+
+  .video{
+  
+    background: repeating-conic-gradient(
+        from 0deg,
+        #ffcc00 0deg 45deg, /* Первый сегмент - желтый */
+        #990099 45deg 90deg /* Второй сегмент - фиолетовый */
+      );
+  }
+
+
+  /* Первая анимация */
+@keyframes animation1 {
+    0% {
+      background-color: #ff0000; /* Начальный кадр - красный фон */
+      transform: translateY(0); /* Начальное положение - не смещено */
+    }
+    50% {
+      background-color: #00ff00; /* Кадр 2 - зеленый фон */
+      transform: translateY(40px); /* Кадр 2 - смещено вниз на 40px */
+    }
+    100% {
+      background-color: #0000ff; /* Конечный кадр - синий фон */
+      transform: translateY(0); /* Конечное положение - вернулись в исходное */
+    }
+  }
+  
+  /* Вторая анимация */
+  @keyframes animation2 {
+    0% {
+      background-color: #ffcc00; /* Начальный кадр - оранжевый фон */
+      transform: translateX(0); /* Начальное положение - не смещено */
+    }
+    50% {
+      background-color: #990099; /* Кадр 2 - фиолетовый фон */
+      transform: translateX(50px); /* Кадр 2 - смещено вправо на 50px */
+    }
+    100% {
+      background-color: #00ccff; /* Конечный кадр - голубой фон */
+      transform: translateX(0); /* Конечное положение - вернулись в исходное */
+    }
+  }
+  
+  /* Применяем первую анимацию к элементу с классом .animation1 */
+  .animation1 {
+    animation-name: animation1;
+    animation-duration: 3s; /* Продолжительность анимации - 3 секунды */
+    animation-iteration-count: infinite; /* Бесконечное повторение */
+  }
+  
+  /* Применяем вторую анимацию к элементу с классом .animation2 */
+  .animation2 {
+    animation-name: animation2;
+    animation-duration: 4s; /* Продолжительность анимации - 4 секунды */
+    animation-iteration-count: infinite; /* Бесконечное повторение */
+  }
+
+  .floatleft{
+    float:left;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .imgOne, .imgTwo{
+        width: 400px;
+        height: 200px;
+        float: none; 
+    }
+
+   .name{
+         font-size: 15px;
+         float: none; 
+    }
+    *{
+       width: 90%;
+       float: none; 
+     }
+    }
+  
+
+
+
+  
+ 
