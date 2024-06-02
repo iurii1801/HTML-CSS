@@ -1,0 +1,30 @@
+body{
+    background-color: azure; /* фон всей страницы */
+}
+
+table {
+    text-align: center;
+    border-width: 5px;
+    border-color: #333;
+    border-style: groove;
+    width: 80%; /* Ширина таблицы (80% от ширины родительского контейнера) */
+    margin: 20px auto; /* Отступы вокруг таблицы и выравнивание по центру */
+     border-collapse: collapse; /* Объединяет границы ячеек таблицы (без промежутков) */
+    }
+
+th {
+    background-color: #0074D9; 
+    color: white; 
+    text-align: center; 
+    border: 2px solid #001f3f; /* Тип, цвет и размер границы ячеек */
+    padding: 10px; /* Отступ внутри ячеек заголовков */
+}
+
+td {
+    background-color: #EEF; 
+    color: #333; 
+    text-align: center; 
+    border: 1px solid #999; /* Тип, цвет и размер границы ячеек */
+    padding: 8px; /* Отступ внутри обычных ячеек */
+}
+
